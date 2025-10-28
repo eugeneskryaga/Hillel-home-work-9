@@ -1,9 +1,8 @@
 * {
     font-family: Roboto, sans-serif;
     font-size: 18px;
-    line-height: 100%;
+    font-weight: 400;
     color: #1F2E35CC;
-
 }
 
 ul {
@@ -14,14 +13,28 @@ a {
     text-decoration: none;
 }
 
+section {
+    padding: 51px 0;
+}
+
+
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 134%;
+}
+
+/* HEADER */
+
 header {
-    position: absolute;
+    position: fixed;
     width: 100%;
+    background-color: white;
     border-bottom: 3px solid lightgray;
 }
 
 .container {
-    width: 1280px;
+    width: 1125px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -30,14 +43,6 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-section img {
-    display: block;
-}
-
-section {
-    padding: 50px 0;
 }
 
 .navigation_list {
@@ -56,26 +61,25 @@ section {
     gap: 24px;
 }
 
+/* HERO */
+
 .hero {
     display: flex;
-    justify-content: space-between;
-    padding-top: 140px;
+    padding-top: 190px;
+    margin-bottom: 100px;
 }
 
-.title {
+.main_title {
     font-weight: 700;
     font-size: 48px;
     line-height: 134%;
-    color: black;
-}
-
-.red_text {
-    color: #EE4248;
+    color: #1F2E35;
 }
 
 .hero_text {
     width: 545px;
     margin-bottom: 24px;
+    line-height: 145%;
 }
 
 .read_more__btn {
@@ -85,4 +89,95 @@ section {
     height: 52px;
     border: none;
     border-radius: 6px;
+}
+
+/* WELCOME SECTION */
+
+.grey_section {
+    background-color: #F6F6F6;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 134%;
+    color: #1F2E35;
+}
+
+.red_text {
+    color: #EE4248;
+}
+
+.welcome_article {
+    width: 520px;
+}
+
+
+.welcome_text {
+    line-height: 150%;
+}
+
+/* PRODUCT AND SERVICE ARTICLE */
+
+.service_list {
+    display: flex;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 134%;
+}
+
+.service h2 {
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.service_list__item {
+    width: 350px;
+    padding: 20px 20px;
+}
+
+.service p {
+    line-height: 150%;
+}
+
+/* FOOTER */
+
+.info {
+    display: flex;
+    gap: 47px;
+    padding-top: 87px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+address {
+    font-style: normal;
+}
+
+h4 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.footer_line {
+    width: 100%;
+    padding: 10px 0; 
+    text-align: center;
+    color: white;
+    background-color: #EE4248;
+}
+
+.info_item {
+    padding-bottom: 5px;
 }
