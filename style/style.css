@@ -85,7 +85,7 @@ header .container {
 
 .hero_text {
     width: 545px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
     line-height: 145%;
 }
 
