@@ -23,11 +23,9 @@
   <body>
     <header>
       <div class="container">
-        <a
-          class="header_link"
-          href="#"
-        >
+        <a href="#">
           <img
+            class="header_img"
             src="./img/logo.png"
             alt="logo"
             width="119"
@@ -63,6 +61,7 @@
                 href="#"
                 >About
                 <img
+                  class="arrow_img"
                   src="./img/arrow.png"
                   alt="arrow"
                   width="12"
@@ -75,6 +74,7 @@
                 href="#"
                 >Client
                 <img
+                  class="arrow_img"
                   src="./img/arrow.png"
                   alt="arrow"
                   width="12"
@@ -92,11 +92,9 @@
         </nav>
         <ul class="icons_list">
           <li>
-            <a
-              class="header_link"
-              href="#"
-            >
+            <a href="#">
               <img
+                class="header_img"
                 src="./img/house.png"
                 alt="house_icon"
                 width="20"
@@ -105,11 +103,9 @@
             </a>
           </li>
           <li>
-            <a
-              class="header_link"
-              href="#"
-            >
+            <a href="#">
               <img
+                class="header_img"
                 src="./img/mail.png"
                 alt="mail_icon"
                 width="20"
@@ -118,11 +114,9 @@
             </a>
           </li>
           <li>
-            <a
-              class="header_link"
-              href="#"
-            >
+            <a href="#">
               <img
+                class="header_img"
                 src="./img/tools.png"
                 alt="tools_icon"
                 width="16"
@@ -134,8 +128,8 @@
       </div>
     </header>
     <main>
-      <section>
-        <div class="hero container">
+      <section class="hero">
+        <div class="container">
           <div class="hero_article">
             <h1 class="main_title hero_text">
               Making the most of the ever-growing
@@ -154,7 +148,7 @@
         </div>
       </section>
       <section class="grey_section">
-        <div class="welcome container">
+        <div class="container">
           <img
             src="./img/article_img.png"
             alt="decoration"
@@ -185,8 +179,8 @@
         </div>
       </section>
       <section class="service">
+        <h2 class="title">Product and Service</h2>
         <div class="container">
-          <h2 class="title">Product and Service</h2>
           <ul class="service_list">
             <li class="service_list__item">
               <img
@@ -239,35 +233,39 @@
     <footer>
       <div class="info container">
         <div class="location">
+          <img
+            class="location_item"
+            src="./img/logo.png"
+            alt="logo"
+            width="120"
+            height="56"
+          />
+          <p class="bold location_item">PT Dwidasa Samsara Indonesia</p>
+          <p class="location_item">Ruko Jalur Sutera 29A No. 53</p>
+          <p class="location_item">Alam Sutera Serpong, Tangerang 15323</p>
+        </div>
+        <div class="contacts">
+          <strong>Contact</strong>
           <address>
-            <ul>
-              <li class="info_item">
-                <img
-                  src="./img/logo.png"
-                  alt="logo"
-                  width="119"
-                  height="56"
-                />
-              </li>
-              <li class="info_item">
-                <span class="bold">PT Dwidasa Samsara Indonesia</span>
-              </li>
-              <li class="info_item">Ruko Jalur Sutera 29A No. 53</li>
-              <li class="info_item">Alam Sutera Serpong, Tangerang 15323</li>
-            </ul>
+            <a
+              href="tel:+62.21.5314.1135"
+              class="contacts_item"
+              >Phone : +62.21.5314.1135</a
+            >
+            <a class="contacts_item">Fax : +62.21.5314.1135</a>
+            <a
+              href="mailto:community@dwidasa.com"
+              class="contacts_item"
+              >Email : community@dwidasa.com</a
+            >
           </address>
         </div>
-        <div class="adress">
-          <ul>
-            <li class="info_item"><h4 class="bold">Contact</h4></li>
-            <li class="info_item">Phone : +62.21.5314.1135</li>
-            <li class="info_item">Fax : +62.21.5314.1135</li>
-            <li class="info_item">Email : community@dwidasa.com</li>
-          </ul>
-        </div>
       </div>
-      <div class="footer_line">
-        <p>Copyright © 2015 - Dwidasa Samsara Indonesia</p>
+      <div class="red_line">
+        <p class="white_text">
+          Copyright &copy; 2015 -
+          <span class="bold white_text">Dwidasa Samsara Indonesia</span>
+        </p>
       </div>
     </footer>
   </body>

@@ -5,18 +5,20 @@
     color: #1F2E35CC;
 }
 
+h1, h2, h3, p, a, button {
+    padding: 0;
+    margin: 0;
+}
+
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
-
-section {
-    padding: 51px 0;
-}
-
 
 h2 {
     font-weight: 500;
@@ -27,15 +29,22 @@ h2 {
 /* HEADER */
 
 header {
-    position: fixed;
     width: 100%;
     background-color: white;
     border-bottom: 3px solid lightgray;
 }
 
+.header_img, .arrow_img {
+    padding: 0;
+    margin: 0;
+}
+
+
 .container {
+    display: flex;
+    justify-content: space-between;
     width: 1125px;
-    padding: 0 20px;
+    padding: 0;
     margin: 0 auto;
 }
 
@@ -52,8 +61,7 @@ header .container {
 
 .header_link {
     display: block;
-    padding-top: 40px; 
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
 .icons_list {
@@ -64,9 +72,8 @@ header .container {
 /* HERO */
 
 .hero {
-    display: flex;
-    padding-top: 190px;
-    margin-bottom: 100px;
+    margin: 50px 0;
+    padding: 74px 0;
 }
 
 .main_title {
@@ -78,7 +85,7 @@ header .container {
 
 .hero_text {
     width: 545px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
     line-height: 145%;
 }
 
@@ -95,15 +102,12 @@ header .container {
 
 .grey_section {
     background-color: #F6F6F6;
+    padding: 60px 0;
 }
 
-.welcome {
-    display: flex;
-    justify-content: space-between;
-    gap: 82px;
-}
 
 .title {
+    margin-bottom: 24px;
     font-weight: 600;
     font-size: 32px;
     line-height: 134%;
@@ -120,13 +124,20 @@ header .container {
 
 
 .welcome_text {
+    margin-bottom: 24px;
     line-height: 150%;
 }
 
 /* PRODUCT AND SERVICE ARTICLE */
 
+.service {
+    padding: 90px 0;
+}
+
 .service_list {
     display: flex;
+    justify-content: space-between;
+    gap: 58px;
 }
 
 h3 {
@@ -135,49 +146,76 @@ h3 {
     line-height: 134%;
 }
 
-.service h2 {
+.service .title {
+    margin-top: 20px;
+    margin-bottom: 17px;
     text-align: center;
-    padding-bottom: 17px;
 }
 
 .service_list__item {
-    width: 350px;
-    padding: 20px 20px;
+    width: 336px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 20px;
 }
 
 .service p {
     line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    margin-bottom: 15px;
 }
 
 /* FOOTER */
 
 .info {
-    display: flex;
-    gap: 47px;
-    padding-top: 87px;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.adress {
+    padding-top: 28px;
+}
+
+.contacts {
+    padding-top: 40px;
+}
+
+.location_item {
+    margin-bottom: 10px;
+    line-height: 149%;
+}
+
+strong {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contacts_item {
+    display: block;
+    line-height: 149%;
+    margin-bottom: 4px;
+}
+
+address {
+    margin-top: 15px;
+    font-style: normal;
 }
 
 .bold {
     font-weight: 600;
 }
 
-address {
-    font-style: normal;
-}
-
-h4 {
-    margin-bottom: 15px;
-    font-size: 24px;
-}
-
-.footer_line {
+.red_line {
     width: 100%;
-    padding: 10px 0; 
+    padding: 20px 0;
     text-align: center;
-    color: white;
     background-color: #EE4248;
 }
 
-.info_item {
-    padding-bottom: 5px;
+.white_text {
+    color: white;
 }
