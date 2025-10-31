@@ -26,10 +26,13 @@ h2 {
     line-height: 134%;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
 /* HEADER */
 
 header {
-    width: 100%;
     background-color: white;
     border-bottom: 3px solid lightgray;
 }
@@ -39,16 +42,13 @@ header {
     margin: 0;
 }
 
-
 .container {
-    display: flex;
-    justify-content: space-between;
     width: 1125px;
-    padding: 0;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
-header .container {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,14 +66,14 @@ header .container {
 
 .icons_list {
     display: flex;
+    align-items: center;
     gap: 24px;
 }
 
 /* HERO */
 
 .hero {
-    margin: 50px 0;
-    padding: 74px 0;
+    padding: 124px 0;
 }
 
 .main_title {
@@ -131,13 +131,8 @@ header .container {
 /* PRODUCT AND SERVICE ARTICLE */
 
 .service {
-    padding: 90px 0;
-}
-
-.service_list {
-    display: flex;
-    justify-content: space-between;
-    gap: 58px;
+    padding-top: 116px;
+    padding-bottom: 60px;
 }
 
 h3 {
@@ -147,16 +142,14 @@ h3 {
 }
 
 .service .title {
-    margin-top: 20px;
     margin-bottom: 17px;
     text-align: center;
 }
 
 .service_list__item {
-    width: 336px;
-    padding-top: 24px;
-    padding-left: 24px;
-    padding-bottom: 20px;
+    width: 360px;
+    height: 384px;
+    padding: 24px;
 }
 
 .service p {
@@ -169,39 +162,35 @@ h3 {
 }
 
 /* FOOTER */
+footer {
+    padding-top: 22px;
+}
 
 .info {
+    display: flex;
     justify-content: flex-start;
-    gap: 50px;
-    padding-top: 30px;
-}
-
-.adress {
+    align-items: flex-end;
+    gap: 47px;
     padding-top: 28px;
+    padding-bottom: 24px;
 }
 
-.contacts {
-    padding-top: 40px;
-}
-
-.location_item {
-    margin-bottom: 10px;
+.location, .contacts {
     line-height: 149%;
 }
 
 strong {
+    display: block;
+    padding-bottom: 15px;
     font-size: 24px;
     font-weight: 600;
 }
 
 .contacts_item {
     display: block;
-    line-height: 149%;
-    margin-bottom: 4px;
 }
 
 address {
-    margin-top: 15px;
     font-style: normal;
 }
 
