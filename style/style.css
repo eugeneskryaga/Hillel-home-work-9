@@ -23,7 +23,7 @@ a {
 h2 {
     font-weight: 500;
     font-size: 32px;
-    line-height: 134%;
+    line-height: 1.34;
 }
 
 .flex {
@@ -79,14 +79,14 @@ header {
 .main_title {
     font-weight: 700;
     font-size: 48px;
-    line-height: 134%;
+    line-height: 1.34;
     color: #1F2E35;
 }
 
 .hero_text {
     width: 545px;
     margin-bottom: 24px;
-    line-height: 145%;
+    line-height: 1.45;
 }
 
 .read_more__btn {
@@ -110,7 +110,7 @@ header {
     margin-bottom: 24px;
     font-weight: 600;
     font-size: 32px;
-    line-height: 134%;
+    line-height: 1.34;
     color: #1F2E35;
 }
 
@@ -124,8 +124,11 @@ header {
 
 
 .welcome_text {
+    line-height: 1.50;
+}
+
+.welcome_article p:first-of-type {
     margin-bottom: 24px;
-    line-height: 150%;
 }
 
 /* PRODUCT AND SERVICE ARTICLE */
@@ -138,7 +141,7 @@ header {
 h3 {
     font-size: 28px;
     font-weight: 500;
-    line-height: 134%;
+    line-height: 1.34;
 }
 
 .service .title {
@@ -153,7 +156,7 @@ h3 {
 }
 
 .service p {
-    line-height: 150%;
+    line-height: 1.50;
     margin-bottom: 15px;
 }
 
@@ -163,7 +166,7 @@ h3 {
 
 /* FOOTER */
 footer {
-    padding-top: 22px;
+    padding-top: 50px;
 }
 
 .info {
@@ -171,17 +174,16 @@ footer {
     justify-content: flex-start;
     align-items: flex-end;
     gap: 47px;
-    padding-top: 28px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .location, .contacts {
-    line-height: 149%;
+    line-height: 1.49;
 }
 
 strong {
     display: block;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     font-size: 24px;
     font-weight: 600;
 }
