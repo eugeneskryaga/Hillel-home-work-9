@@ -1,0 +1,200 @@
+@media (max-width: 1125px) {
+    .container {
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header {
+        gap: 15px;
+    }
+
+    .navigation_list {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .header_link {
+        padding: 20px 0;
+    }
+
+    .icons_list {
+        justify-content: center;
+    }
+
+    .header_link {
+        font-size: 16px;
+    }
+
+    .hero_text {
+        width: 100%;
+    }
+
+    .main_title {
+        font-size: 36px;
+    }
+
+    .service_list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service_list__item {
+        height: 100%;
+    }
+
+}    
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    
+    
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .navigation_list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .header_link {
+        width: 90px;
+        padding: 20px 0;
+    }
+
+    .icons_list {
+        width: 100%;
+        justify-content: center;
+        gap: 15%;
+    
+    }
+
+    .header_link {
+        font-size: 16px;
+    }
+
+    .hero_text {
+        width: 100%;
+    }
+
+    .welcome_img {
+        display: none;
+    }
+
+    .service_list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service_list__item {
+        height: 100%;
+    }
+
+
+} 
+
+@media (max-width: 425px) {
+
+    .container {
+        width: 100%;
+    }
+
+    /* HEADER */
+    
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .navigation_list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+        gap: 10px;
+    }
+
+    .header_link {
+        width: 90px;
+        padding: 20px 0;
+    }
+
+    .icons_list {
+        width: 100%;
+        justify-content: center;
+        gap: 15%;
+    
+    }
+
+    .header_link {
+        font-size: 16px;
+    }
+
+    /* HERO */
+
+    .hero_text {
+        width: 100%;
+    }
+
+    .main_title {
+        font-size: 36px;
+    }
+
+    /* WELCOME SECTION */
+
+    .welcome_img {
+        display: none;
+    }
+
+    /* PRODUCT AND SERVICE */
+
+
+
+    .service_list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .service_list__item {
+        width: 100%;
+        height: 33%;
+    }
+
+    /* FOOTER */
+
+    .info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
