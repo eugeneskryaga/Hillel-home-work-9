@@ -1,0 +1,22 @@
+.grey_section {
+    background-color: #F6F6F6;
+    padding: 60px 0;
+}
+
+.welcome {
+    &_article {
+        width: 520px;
+    }
+
+    &_article p:first-of-type {
+        margin-bottom: 24px;
+    }
+
+    &_text {
+        line-height: 1.50;
+    }
+}
+
+.red_text {
+    color: $red-text;
+}
