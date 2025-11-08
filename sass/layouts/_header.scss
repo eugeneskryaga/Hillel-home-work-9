@@ -9,7 +9,8 @@ header {
     align-items: center;
 
     &_link {
-        display: block;
+        display: flex;
+        align-items: center;
         padding: 40px 0;
     }
 }
