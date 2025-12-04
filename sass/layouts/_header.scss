@@ -1,0 +1,36 @@
+header {
+    background-color: white;
+    border-bottom: 3px solid lightgray;
+}
+
+.header_img, .arrow_img {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_link {
+    display: flex;
+    padding: 40px 0;
+    }
+}
+
+.navigation_list {
+    display: flex;
+    gap: 50px;
+}
+
+.arrow_img {
+    align-self: center;
+    margin-left: 5px;
+}
+
+.icons_list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}

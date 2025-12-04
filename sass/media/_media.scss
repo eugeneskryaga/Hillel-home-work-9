@@ -1,0 +1,112 @@
+@media (max-width: 767px) {
+    .container {
+        width: 340px;
+        padding: 0 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navigation_list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero {
+        padding: 40px 0;
+
+        & .flex {
+            flex-direction: column;
+            gap: 20px
+        }
+
+        &_article {
+            display: flex;
+            flex-direction: column;
+
+            & .read_more__btn {
+                align-self: center;
+            }
+        }
+
+        &_text {
+            width: 340px;
+        }
+    }
+
+    .main_title {
+        font-size: 44px;
+    }
+
+    .grey_section .flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .welcome_img {
+        order: 2;
+    }
+
+    .welcome_article {
+        width: 320px;
+    }
+
+    .service {
+        padding-top: 40px;
+
+        &_list {
+            flex-direction: column;
+            &__item {
+                width: fit-content;
+                height: fit-content;
+                padding: 10px;
+            }
+        }
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1124px) {
+    .container {
+        width: 768px;
+    }
+
+    .navigation_list {
+        gap: 16px;
+    }
+
+    .hero {
+        padding: 60px 0;
+
+        & .flex {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        &_article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .grey_section .flex {
+        gap: 10px;
+    }
+
+    .service_list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,45 @@
+footer {
+    padding-top: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 47px;
+    margin-bottom: 24px;
+}
+
+.location, .contacts {
+    line-height: 1.49;
+}
+
+strong {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contacts_item {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.red_line {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #EE4248;
+}
+
+.white_text {
+    color: white;
+}

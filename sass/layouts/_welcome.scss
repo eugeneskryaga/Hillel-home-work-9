@@ -1,0 +1,20 @@
+.grey_section {
+    background-color: $grey_section;
+    padding: 60px 0;
+}
+
+.red_text {
+    color: $red-text;
+}
+
+.welcome_article {
+    width: 520px;
+}
+
+.welcome_text {
+    line-height: 1.50;
+}
+
+.welcome_article p:first-of-type {
+    margin-bottom: 24px;
+}
